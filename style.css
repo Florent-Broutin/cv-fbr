@@ -1,1 +1,15 @@
-p{background-color: rgb(30, 35, 85);} @media screen and (min-width:640px){}
+body {
+    font-size: 16px;background-color: blueviolet;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;background-color: aqua;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;background-color: brown;
+    }
+  }
