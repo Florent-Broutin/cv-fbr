@@ -25,7 +25,10 @@ body {
       height: 25vh;
       border-radius: 5%;
       padding: 50px;
-      margin: 20px;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      gap: 20px;
   }
 
   .Contact {
@@ -39,7 +42,10 @@ body {
       height: 25vh;
       border-radius: 5%;
       padding: 50px;
-      margin: 20px;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      gap: 20px;
   }
 
   .Expérience {
