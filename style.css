@@ -13,3 +13,47 @@ body {
       font-size: 12px;background-color: rgb(178, 120, 3);
     }
   }
+
+  .Profil {
+    display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center;
+    background-color: aquamarine;
+      width: 400px;
+      min-width: none;;
+      height: 25vh;
+      border-radius: 5%;
+      padding: 50px;
+      margin: 20px;
+  }
+
+  .Contact {
+    display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center;
+    background-color: aquamarine;
+      width: 400px;
+      min-width: none;;
+      height: 25vh;
+      border-radius: 5%;
+      padding: 50px;
+      margin: 20px;
+  }
+
+  .Expérience {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  }
+
+  .Formation {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  }
+
+  .Compétence {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  }
+
+  .Intérêt {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  }
