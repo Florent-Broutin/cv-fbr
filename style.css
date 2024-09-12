@@ -1,16 +1,16 @@
 body {
-    font-size: 16px;background-color: rgb(255, 119, 0);
+    font-size: 16px;background-color: green;
   }
   
   @media (max-width: 768px) {
     body {
-      font-size: 14px;background-color: rgb(213, 134, 49);
+      font-size: 14px;background-color: orange;
     }
   }
   
   @media (max-width: 480px) {
     body {
-      font-size: 12px;background-color: rgb(178, 120, 3);
+      font-size: 12px;background-color: red;
     }
   }
 
