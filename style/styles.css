@@ -15,31 +15,30 @@ body {
   }
 
   .Gauche {
-    background-color: blueviolet;
+    background-color: white;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    list-style-type: none;
 
     #Photo {
       display: block;
       width: 150px;
       height: auto;
+      list-style-type: none;
     }
     
     .Informations {
       display: flex;
       flex-direction: column;
+      list-style-type: none;
 
       .InformationsGras {
         font-weight: bold;
         margin-top: 30px;
-        background-color: yellow;
         align-items: flex-start;
       }
 
       .InformationsDesc {
-        background-color: aquamarine;
         align-items: flex-end;
       }
   
@@ -83,6 +82,99 @@ body {
         display: flex;
         flex-direction: column;
         }
+      }
+
+      .Telephone {
+        display: flex;
+        align-items: flex-start;
+      
+        .TelephoneContent {
+        display: flex;
+        align-items:center;
+        }
+    
+        #TelephoneIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+        }
+    
+        .TelephoneText {
+        display: flex;
+        flex-direction: column;
+        }
+      }
+
+      .Naissance {
+        display: flex;
+        align-items: flex-start;
+      
+        .NaissanceContent {
+        display: flex;
+        align-items:center;
+        }
+    
+        #CalendarIcon {
+          width: 25px;
+          height: auto;
+          margin-right: 10px;
+        }
+    
+        .NaissanceText {
+        display: flex;
+        flex-direction: column;
+        }
+      }
+
+      .Permis {
+        display: flex;
+        align-items: flex-start;
+      
+        .PermisContent {
+        display: flex;
+        align-items:center;
+        }
+    
+        #PermisIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+        }
+    
+        .PermisText {
+        display: flex;
+        flex-direction: column;
+        }
+      }
+
+      .Reconnaissance {
+        display: flex;
+        align-items: flex-start;
+      
+        .ReconnaissanceContent {
+        display: flex;
+        align-items:center;
+        }
+    
+        #ManIcon {
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+        }
+    
+        .ReconnaissanceText {
+        display: flex;
+        flex-direction: column;
+        }
+      }
+    }
+
+    .Competences {
+      display: flex;
+
+      .CompetencesText {
+      display: flex;
+      margin-top: 10px;
       }
     }
   }
