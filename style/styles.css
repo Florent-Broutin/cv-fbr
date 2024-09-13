@@ -35,6 +35,7 @@ body {
         font-weight: bold;
         margin-top: 30px;
         background-color: yellow;
+        align-items: flex-start;
       }
 
       .InformationsDesc {
@@ -44,12 +45,23 @@ body {
   
       .Adresse {
         display: flex;
-        flex-direction: column;
-
+        align-items: flex-start;
+      
+    
+        .AdresseContent {
+        display: flex;
+        align-items:center;
+        }
+    
         #LocationIcon {
-          display: block;
-          width: 25px;
-          height: auto;
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
+        }
+    
+        .AdresseText {
+        display: flex;
+        flex-direction: column;
         }
       }
 
