@@ -47,7 +47,6 @@ body {
         display: flex;
         align-items: flex-start;
       
-    
         .AdresseContent {
         display: flex;
         align-items:center;
@@ -67,61 +66,23 @@ body {
 
       .Email {
         display: flex;
-        flex-direction: column;
-
+        align-items: flex-start;
+      
+        .EmailContent {
+        display: flex;
+        align-items:center;
+        }
+    
         #EmailIcon {
-          display: block;
-          width: 25px;
-          height: auto;
+        width: 25px;
+        height: auto;
+        margin-right: 10px;
         }
-        
-      }
-
-      .Telephone {
+    
+        .EmailText {
         display: flex;
         flex-direction: column;
-
-        #TelephoneIcon {
-          display: block;
-          width: 25px;
-          height: auto;
         }
-        
-      }
-
-      .Naissance {
-        display: flex;
-        flex-direction: column;
-
-        #CalendarIcon {
-          display: block;
-          width: 25px;
-          height: auto;
-        }
-        
-      }
-
-      .Permis {
-        display: flex;
-        flex-direction: column;
-
-        #CarIcon {
-          display: block;
-          width: 25px;
-          height: auto;
-        }
-        
-      }
-
-      .Reconnaissance {
-        display: flex;
-        flex-direction: column;
-
-        #ManIcon {
-          display: block;
-          width: 25px;
-          height: auto;
-        }  
       }
     }
   }
