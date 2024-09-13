@@ -34,20 +34,17 @@ body {
       .InformationsGras {
         font-weight: bold;
         margin-top: 30px;
-        align-self: flex-start;
-        justify-content: flex-start;
-        margin-left: 30px;
         background-color: yellow;
       }
 
       .InformationsDesc {
-        align-self: flex-end;
         background-color: aquamarine;
+        align-items: flex-end;
       }
   
       .Adresse {
         display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
 
         #LocationIcon {
           display: block;
@@ -58,6 +55,7 @@ body {
 
       .Email {
         display: flex;
+        flex-direction: column;
 
         #EmailIcon {
           display: block;
@@ -69,6 +67,7 @@ body {
 
       .Telephone {
         display: flex;
+        flex-direction: column;
 
         #TelephoneIcon {
           display: block;
@@ -80,6 +79,7 @@ body {
 
       .Naissance {
         display: flex;
+        flex-direction: column;
 
         #CalendarIcon {
           display: block;
@@ -87,6 +87,29 @@ body {
           height: auto;
         }
         
+      }
+
+      .Permis {
+        display: flex;
+        flex-direction: column;
+
+        #CarIcon {
+          display: block;
+          width: 25px;
+          height: auto;
+        }
+        
+      }
+
+      .Reconnaissance {
+        display: flex;
+        flex-direction: column;
+
+        #ManIcon {
+          display: block;
+          width: 25px;
+          height: auto;
+        }  
       }
     }
   }
