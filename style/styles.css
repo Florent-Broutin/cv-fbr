@@ -174,7 +174,46 @@ body {
 
       .CompetencesText {
       display: flex;
-      margin-top: 10px;
+      }
+    }
+
+    .Langues {
+      display: flex;
+
+      .LanguesText {
+      display: flex;
+      }
+    }
+
+    .Interets {
+      display: flex;
+
+      .InteretsText {
+      display: flex; 
+      }
+    }
+  }
+
+  .Droite {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    .AboutMe {
+      display: flex;
+      flex-direction: column;
+
+      .AboutMeText {
+        display: flex;
+      }
+    }
+
+    .Experiences {
+      display: flex;
+
+      .ExperiencesText {
+        display: flex;
       }
     }
   }
