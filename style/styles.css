@@ -207,13 +207,13 @@ body {
       display: flex;
     }
   }
-}
 
-.CV {
-  background-color: white;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  .CV {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
 
   .AboutMe {
     display: flex;
