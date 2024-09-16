@@ -1,12 +1,28 @@
 body {
   font-size: 16px;
   background-color: green;
+
+  .Profile {
+    order: 1;
+  }
+
+  .CV {
+    order: 2;
+  }
 }
 
 @media (max-width: 768px) {
   body {
     font-size: 14px;
     background-color: orange;
+
+    .Profile {
+      order: 1;
+    }
+  
+    .CV {
+      order: 2;
+    }
   }
 }
 
@@ -14,14 +30,35 @@ body {
   body {
     font-size: 12px;
     background-color: red;
+
+    .Colonnes {
+      flex-direction: column;
+
+      .CV {
+        order: 1;
+      }
+
+      .Profile {
+        order: 2;
+      }
+
+      .Informations {
+        order: 4;
+      }
+    }
   }
 }
 
 .Header {
+
   .HeaderContent {
     background-color: white;
     display: flex;
     justify-content: flex-start;
+
+  .HeaderText {
+    text-align: center;
+  }
 
     #Photo {
       display: block;
@@ -31,9 +68,42 @@ body {
     }
   }
 }
+
 .Colonnes {
   display: flex;
-  flex-direction: column;
+  
+
+  .CV {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .AboutMe {
+    display: flex;
+    flex-direction: column;
+
+    .AboutMeText {
+      display: flex;
+    }
+  }
+
+  .Experiences {
+    display: flex;
+
+    .ExperiencesText {
+      display: flex;
+    }
+  }
+
+  .Formations {
+    display: flex;
+
+    .FormationsText {
+      display: flex;
+    }
+  }
 
   .Profile {
     background-color: white;
@@ -204,38 +274,6 @@ body {
     display: flex;
 
     .InteretsText {
-      display: flex;
-    }
-  }
-
-  .CV {
-    background-color: white;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-
-  .AboutMe {
-    display: flex;
-    flex-direction: column;
-
-    .AboutMeText {
-      display: flex;
-    }
-  }
-
-  .Experiences {
-    display: flex;
-
-    .ExperiencesText {
-      display: flex;
-    }
-  }
-
-  .Formations {
-    display: flex;
-
-    .FormationsText {
       display: flex;
     }
   }
