@@ -89,17 +89,21 @@ body {
 
   .Experiences {
     display: flex;
+    flex-direction: column;
 
     .ExperiencesText {
       display: flex;
+      flex-direction: column;
     }
   }
 
   .Formations {
     display: flex;
+    flex-direction: column;
 
     .FormationsText {
       display: flex;
+      flex-direction: column;
     }
   }
 
