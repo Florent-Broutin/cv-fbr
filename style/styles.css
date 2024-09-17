@@ -117,7 +117,6 @@ body {
 
     .InformationsGras {
       font-weight: bold;
-      margin-top: 30px;
       align-items: flex-start;
     }
 
@@ -132,6 +131,7 @@ body {
       .AdresseContent {
         display: flex;
         align-items: center;
+        gap: 5px;
       }
 
       #LocationIcon {
@@ -143,6 +143,8 @@ body {
       .AdresseText {
         display: flex;
         flex-direction: column;
+        margin: 0px;
+        padding: 0px;
       }
     }
 
